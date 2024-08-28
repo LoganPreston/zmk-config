@@ -59,15 +59,15 @@
 
                 nav_layer { // the extras
 // -----------------------------------------------------------------------------------------
-// |     | F1 | F2  | F3  | F4   |     |   |     | PgUp | HOME |      | PSCRN | INS |
-// |     | F5 | F6  | F7  | F8   |     |   | LFT | DWN  |  UP  |  RGT |       |     |
-// |     | F9 | F10 | F11 | F12  |     |   |     | PgDn | END  |      |       |     |
-//                  |     | CAPS |     |   |     |      |      |                  
+// | CAPS | F1 | F2  | F3  | F4   |     |   |     | PgUp | HOME |      | PSCRN | INS |
+// |      | F5 | F6  | F7  | F8   |     |   | LFT | DWN  |  UP  |  RGT |       |     |
+// |      | F9 | F10 | F11 | F12  |     |   |     | PgDn | END  |      |       |     |
+//                   |     |      |     |   |     |      |      |                  
                         bindings = <
-   &trans   &kp F1 &kp F2  &kp F3  &kp F4    &none    &none     &kp PG_UP &kp HOME &none     &kp PSCRN &kp INS
+   &kp CAPS &kp F1 &kp F2  &kp F3  &kp F4    &none    &none     &kp PG_UP &kp HOME &none     &kp PSCRN &kp INS
    &trans   &kp F5 &kp F6  &kp F7  &kp F8    &none    &kp LEFT  &kp DOWN  &kp UP   &kp RIGHT &none     &trans
    &trans   &kp F9 &kp F10 &kp F11 &kp F12   &none    &trans    &kp PG_DN &kp END  &none     &none     &trans
-                           &trans  &kp CAPS  &trans   &trans    &trans    &trans 
+                           &trans  &trans    &trans   &trans    &trans    &trans 
                         >;
                 };
         };
